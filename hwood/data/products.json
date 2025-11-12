@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "rover-edge-pro-s",
+    "title": "Rover Edge Pro S",
+    "subservice": "edging",
+    "intro": "מכונת קנטים מתקדמת, קצה נקי ועקבי.",
+    "images": ["/images/pro1.svg", "/images/pro1b.svg"],
+    "specs": [
+      { "name": "עובי פלטה", "value": "10–60 מ\"מ" },
+      { "name": "מהירות הזנה", "value": "18 מ/דקה" }
+    ],
+    "pdf": "/docs/rover-edge-pro-s.pdf",
+    "tags": ["דו-צדדי", "Edge"]
+  }
+]

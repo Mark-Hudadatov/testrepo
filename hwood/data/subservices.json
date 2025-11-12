@@ -1,0 +1,5 @@
+[
+  { "slug": "edging", "title": "אוקנטה וקנטים", "category": "cnc", "image": "/images/edging.svg", "description": "קנטים ואוקנטה איכותיים לחזית נקייה." },
+  { "slug": "nesting", "title": "חיתוך Nesting", "category": "cnc", "image": "/images/nesting.svg", "description": "חיתוך אופטימלי לפלטות, הכנה לפרזול." },
+  { "slug": "kitchens", "title": "מודולי מטבח", "category": "modular", "image": "/images/kitchens.svg", "description": "N/V סטנדרטים, הרכבה מהירה וגיאומטריה יציבה." }
+]

@@ -1,0 +1,5 @@
+[
+  { "slug": "cnc", "title": "עיבוד CNC", "excerpt": "חיתוך, קידוח וכרסום מדויק.", "image": "/images/cnc.svg" },
+  { "slug": "modular", "title": "ייצור מודולרי", "excerpt": "מודולים למטבחים וארונות.", "image": "/images/modular.svg" },
+  { "slug": "facades", "title": "חזיתות מעוצבות", "excerpt": "חזיתות MDF לצבע ופרופילי אלומיניום.", "image": "/images/facades.svg" }
+]

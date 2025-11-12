@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  direction: rtl;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    scroll-behavior: smooth;
+    @apply bg-light;
+  }
+
+  body {
+    @apply m-0 min-h-screen bg-light text-dark;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+@media (min-width: 1024px) {
+  html,
+  body {
+    scroll-snap-type: y proximity;
+  }
+
+  section.snap {
+    scroll-snap-align: start;
+  }
+}
+
+.list-rtl {
+  list-style-position: inside;
+}

@@ -7,6 +7,20 @@ const defaultMeta = {
 };
 
 export function buildMetadata(overrides: Partial<Metadata> = {}): Metadata {
+  const {
+    openGraph: openGraphOverrides,
+    twitter: twitterOverrides,
+    title: overrideTitle,
+    description: overrideDescription,
+    ...rest
+  } = overrides;
+
+  const title = typeof overrideTitle === 'string' ? overrideTitle : defaultMeta.title;
+
+  const description = overrideDescription ?? defaultMeta.description;
+
+  return {
+    ...rest,
   const title =
     typeof overrides.title === 'string'
       ? overrides.title
@@ -26,12 +40,15 @@ export function buildMetadata(overrides: Partial<Metadata> = {}): Metadata {
       locale: 'he_IL',
       url: 'https://www.hwood.example',
       siteName: 'HWOOD',
+      ...openGraphOverrides,
       ...overrides.openGraph,
     },
     twitter: {
       card: 'summary_large_image',
       title: typeof title === 'string' ? title : defaultMeta.title,
       description,
+      ...twitterOverrides,
+    },
       ...overrides.twitter,
     },
     ...overrides,

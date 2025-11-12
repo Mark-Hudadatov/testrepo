@@ -19,6 +19,10 @@ export async function generateMetadata({ params }: ProductPageProps) {
     title: `${product.title} | HWOOD`,
     description: product.intro,
     openGraph: {
+      images: product.images.map((url) => ({
+        url,
+        alt: product.title,
+      })),
       type: 'product',
     },
   });

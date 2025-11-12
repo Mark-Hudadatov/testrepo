@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: ProductPageProps) {
         url,
         alt: product.title,
       })),
+      type: 'product',
     },
   });
 }
